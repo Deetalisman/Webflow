@@ -29,3 +29,11 @@ body {
 .me {
   display: block;
 }
+.bigger {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.big {
+  scroll-snap-align: start;
+}

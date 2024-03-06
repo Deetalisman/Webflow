@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
+import { MdOutlineSubject } from "react-icons/md";
 function Homepage() {
   return (
     <div className="h-[100vh] bg-[#ECF1FD]">
@@ -17,13 +18,16 @@ function Menubar() {
     console.log(Menu);
   }
   return (
-    <div className=" px-2 py-4 relative  flex justify-between">
-      <p className="z-10 font-medium">WEBFLOW AGENCY</p>
-      <p className="z-10 cursor-pointer" onClick={handleMenu}>
-        Click
-      </p>
+    <div className=" px-2 py-4 relative">
+      <div className="flex justify-between">
+        <p className="z-10 font-medium">WEBFLOW AGENCY</p>
+        <MdOutlineSubject
+          className="z-10 cursor-pointer text-[2rem] "
+          onClick={handleMenu}
+        />
+      </div>
       <div className={"hidden " + (Menu && "me")}>
-        <ul className=" list-none  pt-[25%] text-center bg-slate-100 text-[gray] absolute left-0 top-0 w-[100%] h-[94vh]">
+        <ul className=" list-none  pt-[25%] text-center bg-slate-100 text-[gray] absolute left-0 top-0 w-[100%] h-[99vh]">
           <li>
             <a>Home</a>
           </li>
@@ -50,9 +54,9 @@ function Menubar() {
 
 function MenuDetails() {
   return (
-    <div className="text-center p-2 mt-[17%]">
+    <div className="text-center p-2  mt-[17%]">
       <p className="text-[0.7rem] text-[#265AE8]">#1 WEBFLOW AGENCY</p>
-      <h1 className=" mt-2 text-[1.5rem] font-bold text-slate-800">
+      <h1 className=" mt-2 text-[1.8rem] font-bold text-slate-800">
         Transform your digital presence with our expert in{" "}
         <span className="text-[#265AE8]">Web Design</span>
       </h1>
