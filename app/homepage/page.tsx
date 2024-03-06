@@ -18,11 +18,11 @@ function Menubar() {
     console.log(Menu);
   }
   return (
-    <div className=" px-2 py-4 relative flex justify-between">
+    <div className=" px-2 py-4 relative md:flex md:justify-between">
       <div className="flex justify-between lg:px-5">
         <p className="z-10 font-medium text-[1.2rem] md:mt-2">WEBFLOW AGENCY</p>
         <MdOutlineSubject
-          className="z-10 cursor-pointer text-[2.3rem] md:hidden"
+          className="z-10 cursor-pointer text-[2.3rem] md:hidden "
           onClick={handleMenu}
         />
       </div>
