@@ -7,7 +7,7 @@ import Portfolio from "./portfolio/page";
 
 export default function Home() {
   return (
-    <main className="mb-5">
+    <main>
       <Homepage />
       <Service />
       <Startup />

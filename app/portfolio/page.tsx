@@ -2,9 +2,11 @@ import Image from "next/image";
 import { MdAirlineStops } from "react-icons/md";
 function Portfolio() {
   return (
-    <div className="mt-5 bg-black text-white pt-5">
-      <main className="px-5">
-        <p className="text-slate-500 text-[0.9rem]">Our Portfolio</p>
+    <div className="mt-5 bg-black text-white pt-5 lg:p-10 xl:px-32">
+      <main className="px-5 sm:w-[70%] lg:w-[60%]">
+        <p className="text-slate-500 text-[0.9rem] lg:text-[1rem]">
+          Our Portfolio
+        </p>
         <p className="mt-2 font-semibold text-lg tracking-wide">
           Building creative conversion web design and development
         </p>
@@ -14,13 +16,7 @@ function Portfolio() {
       </main>
       <section className="px-5 mt-7 flex justify-between flex-wrap">
         <div className="mb-5 w-[48%] border-b-2 border-white">
-          <Image
-            src="/Component 1.png"
-            className="w-[100%]"
-            width={100}
-            height={40}
-            alt="img5"
-          />
+          <Image src="/Component 1.png" width={320} height={40} alt="img5" />
           <p className="mt-2 text-[0.9rem]">E Commerce Web Development</p>
           <p className="text-[0.7rem] mt-2 text-[gray]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
@@ -35,8 +31,7 @@ function Portfolio() {
         <div className="mb-5 w-[48%] border-b-2 border-white">
           <Image
             src="/Component 1 (1).png"
-            className="w-[100%]"
-            width={100}
+            width={320}
             height={40}
             alt="img5"
           />
@@ -54,8 +49,7 @@ function Portfolio() {
         <div className="mb-5 w-[48%] border-b-2 border-white">
           <Image
             src="/Component 1 (2).png"
-            className="w-[100%]"
-            width={100}
+            width={320}
             height={40}
             alt="img5"
           />
@@ -73,8 +67,7 @@ function Portfolio() {
         <div className="mb-5 w-[48%] border-b-2 border-white">
           <Image
             src="/Component 1 (3).png"
-            className="w-[100%]"
-            width={100}
+            width={320}
             height={40}
             alt="img5"
           />
