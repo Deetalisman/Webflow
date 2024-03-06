@@ -20,9 +20,9 @@ function Menubar() {
   return (
     <div className=" px-2 py-4 relative">
       <div className="flex justify-between">
-        <p className="z-10 font-medium">WEBFLOW AGENCY</p>
+        <p className="z-10 font-medium text-[1.3rem]">WEBFLOW AGENCY</p>
         <MdOutlineSubject
-          className="z-10 cursor-pointer text-[2rem] "
+          className="z-10 cursor-pointer text-[2.3rem] "
           onClick={handleMenu}
         />
       </div>
@@ -54,7 +54,7 @@ function Menubar() {
 
 function MenuDetails() {
   return (
-    <div className="text-center p-2  mt-[17%]">
+    <div className="text-center p-2  mt-[15%]">
       <p className="text-[0.7rem] text-[#265AE8]">#1 WEBFLOW AGENCY</p>
       <h1 className=" mt-2 text-[1.8rem] font-bold text-slate-800">
         Transform your digital presence with our expert in{" "}

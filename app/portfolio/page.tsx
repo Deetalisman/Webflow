@@ -3,8 +3,8 @@ import { MdAirlineStops } from "react-icons/md";
 function Portfolio() {
   return (
     <div className="mt-5 bg-black text-white pt-5">
-      <main className="px-2">
-        <p className="text-slate-500 text-[0.8rem]">Our Portfolio</p>
+      <main className="px-5">
+        <p className="text-slate-500 text-[0.9rem]">Our Portfolio</p>
         <p className="mt-2 font-semibold text-lg tracking-wide">
           Building creative conversion web design and development
         </p>
@@ -21,7 +21,7 @@ function Portfolio() {
             height={40}
             alt="img5"
           />
-          <p className="mt-2">E Commerce Web Development</p>
+          <p className="mt-2 text-[0.9rem]">E Commerce Web Development</p>
           <p className="text-[0.7rem] mt-2 text-[gray]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             architecto eaque qui aut asperiores perferendis ex quia. Odit est
@@ -40,7 +40,7 @@ function Portfolio() {
             height={40}
             alt="img5"
           />
-          <p className="mt-2">Web Flow/SEO Integration</p>
+          <p className="mt-2 text-[0.9rem]">Web Flow/SEO Integration</p>
           <p className="text-[0.7rem] mt-2 text-[gray]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             architecto eaque qui aut asperiores perferendis ex quia. Odit est
@@ -59,7 +59,7 @@ function Portfolio() {
             height={40}
             alt="img5"
           />
-          <p className="mt-2">E Commerce Web Development</p>
+          <p className="mt-2 text-[0.9rem]">E Commerce Web Development</p>
           <p className="text-[0.7rem] mt-2 text-[gray]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             architecto eaque qui aut asperiores perferendis ex quia. Odit est
@@ -78,7 +78,7 @@ function Portfolio() {
             height={40}
             alt="img5"
           />
-          <p className="mt-2">Web Flow/SEO Integration</p>
+          <p className="mt-2 text-[0.9rem]">Web Flow/SEO Integration</p>
           <p className="text-[0.7rem] mt-2 text-[gray]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
             architecto eaque qui aut asperiores perferendis ex quia. Odit est

@@ -3,7 +3,7 @@ function Testimonial() {
   return (
     <div className="mt-7 ">
       <main className="px-2">
-        <p className="text-slate-500 text-[0.7rem]">CLIENT TESTIMONIAL</p>
+        <p className="text-slate-500 text-[0.8rem]">CLIENT TESTIMONIAL</p>
         <p className="mt-2 font-semibold text-lg">
           Trusted by worldwide largest companies
         </p>
@@ -23,7 +23,7 @@ function Testimonial() {
               <p className="text-[0.6rem] text-[gray]">CEO APPLE</p>
             </div>
           </aside>
-          <aside className="bg-[blue] w-[19rem] h-[22.2rem] text-[0.9rem] rounded-tr-lg rounded-br-lg text-white p-5 pt-10">
+          <aside className="bg-[blue] w-[19rem] h-[22.2rem] text-[0.9rem] rounded-tr-lg rounded-br-lg text-white p-5 pt-24">
             Working with agency was a game-changer for our brand.Their
             unparalleled creativity and attention to detail transformed our
             digital presence.The new website not only looks stunning but alos
@@ -44,7 +44,7 @@ function Testimonial() {
               <p className="text-[0.6rem] text-[gray]">Product Manager</p>
             </div>
           </aside>
-          <aside className="bg-[blue] w-[19rem] h-[22.2rem] text-[0.9rem] rounded-tr-lg rounded-br-lg text-white p-5 pt-10">
+          <aside className="bg-[blue] w-[19rem] h-[22.2rem] text-[0.9rem] rounded-tr-lg rounded-br-lg text-white p-5 pt-24">
             Working with agency was a game-changer for our brand.Their
             unparalleled creativity and attention to detail transformed our
             digital presence.The new website not only looks stunning but alos
